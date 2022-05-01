@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    place-items: center;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Poppins', sans-serif;
+}
+body p:nth-child(1){
+    font-weight: 200;
+    padding-top: 2rem;
+    font-size: larger;
+   
+}
+body p:nth-child(2){
+    font-weight: 600;
+    padding: 0.5rem 0rem;
+    font-size: larger;
+}
+body p:nth-child(3){
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+    padding: 0.5rem 25rem;
+    text-align: center;
+    font-size: small;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------------------------------------------------------------ */
+.team {
+    text-align: left;
+    -webkit-box-shadow:0px 0px 4px 0px #000000 ;
+    -moz-box-shadow:0px 0px 4px 0px #000000 ;
+    box-shadow:0px 0px 4px 0px #000000 ;
+    border-top: solid 5px hsl(0, 78%, 62%);
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: -22%;
+}
+.team img {
+    height: 3rem;
+    width: 3rem;
+    padding-left: 16rem;
+    padding-top: 1rem;
+}
+.team p:nth-child(1){
+    font-weight: 600;
+}
+.sup {
+    text-align: left;
+    -webkit-box-shadow:0px 0px 4px 0px #000000 ;
+    -moz-box-shadow:0px 0px 4px 0px #000000 ;
+    box-shadow:0px 0px 4px 0px #000000 ;
+    width: 20rem;
+    height: 10rem;
+    border-top: solid 5px hsl(180, 62%, 55%);
+    margin-right: 15rem;
+    margin-top: 15%;
+}
+.sup img {
+    height: 3rem;
+    width: 3rem;
+    padding-left: 16rem;
+    padding-top: 2rem;
+}
+.sup p:nth-child(1){
+    font-weight: 600;
+}
+.cal {
+    text-align: left;
+    -webkit-box-shadow:0px 0px 4px 0px #000000 ;
+-moz-box-shadow:0px 0px 4px 0px #000000 ;
+box-shadow:0px 0px 4px 0px #000000 ;
+border-top: solid 5px hsl(212, 86%, 64%);
+    width: 20rem;
+    height: 10rem;
+    margin-left: 10rem;
+    margin-top: 15%;
+}
+.cal img {
+    height: 3rem;
+    width: 3rem;
+    padding-left: 16rem;
+    padding-top: 1rem;
+}
+.cal p:nth-child(1){
+    font-weight: 600;
+}
+.kar {
+    text-align: left;
+    -webkit-box-shadow:0px 0px 4px 0px #000000 ;
+    -moz-box-shadow:0px 0px 4px 0px #000000 ;
+    box-shadow:0px 0px 4px 0px #000000 ;
+    border-top: solid 5px hsl(34, 97%, 64%);
+    width: 20rem;
+    height: 10rem;
+    margin-top: -5%;
+}
+.kar img {
+    height: 3rem;
+    width: 3rem;
+    padding-left: 16rem;
+    padding-top: 2rem;
+}
+.kar p:nth-child(1){
+    font-weight: 600;
+}
+/* ------------------------------------------------------------- */
+.kar p:nth-child(1){
+    padding: 1rem;
+}
+.kar p:nth-child(2){
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 10px;
+    color: hsl(229, 6%, 66%);
+}
+.cal p:nth-child(1){
+    padding: 1rem;
+}
+.cal p:nth-child(2){
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 10px;
+    color: hsl(229, 6%, 66%);
+}
+.sup p:nth-child(1){
+    padding: 1rem;
+}
+.sup p:nth-child(2){
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 10px;
+    color: hsl(229, 6%, 66%);
+}
+.team p:nth-child(1){
+    padding: 1rem;
+}
+.team p:nth-child(2){
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 10px;
+    color: hsl(229, 6%, 66%);
+}
+
+.flex {
+    display: flex;
+}
+
+/* ----------------------------------------------------------------------------- */
+@media (max-width:375px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    body p:nth-child(3){
+        padding:  1rem;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .team {
+        margin: 0 0 1rem 0;
+        width: 20rem;
+        height: 10rem;
+      
+    }
+    .sup{
+        margin: 0 0 1rem 0;
+        width: 20rem;
+        height: 10rem;
+      
+    }
+    .kar {
+        margin: 0 0 1rem 0;
+        width: 20rem;
+        height: 10rem;
+      
+    }
+    .cal {
+        margin: 0 0 1rem 0;
+        width: 20rem;
+        height: 10rem;
+      
+    }
+}
